@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="audio">
+        <audio controls>
+            <source src="music/bgm.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div class="midbox" id="campaign">
+        <div class="midcontent">
+            <div class="campaign-content">
+                <a href="https://cn.acy.com/cn-company-announcement/10-11-2017-22354" target="_blank">
+                    <img class="background" src="img/11.png" alt="">
+                </a>
+                <img id="close-campaign" src="img/cross.png" alt="">
+            </div>
+        </div>
+    </div>
+    <section class="banner">
+        <img class="banner-image hidden-md hidden-sm hidden-xs" src="img/JC_news.png" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    <div class="title">
+                        <span class="title-item come">来听一场</span>
+                        <span class="title-item xueyou">学友</span>
+                        <span class="title-item de hover-rotate-y">的</span>
+                        <span class="title-item">
+                            <span class="concert">演唱会</span><br>
+                        <span class="acy">ACY稀万独家冠名</span>
+                        </span>
+                        <span class="sydney">
+                            Jacky Cheung “A CLASSIC TOUR 学友 经典” 2018 世界巡演 （悉尼站）
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="form-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12">
+                        <h2 class="white">加入ACY稀万 见证歌神经典</h2>
+                        <div class="form-body">
+                            <img class="tie" src="img/tie.png" alt="">
+                            <div class="row">
+                                <div class="col-sm-10 col-xs-12">
+                                    <h4>注册真实账户，加入礼遇抽奖</h4>
+                                    <form id="acyform-top" method="POST" action="http://apiform.acytest.com/v1/promo-live-account">
+                                        <div>
+                                            <label for="">名</label>
+                                            <input type="text" name="first_name" required>
+                                            <i class="error"></i>
+                                        </div>
+                                        <div>
+                                            <label for="">姓</label>
+                                            <input type="text" name="last_name" required>
+                                            <i class="error"></i>
+                                        </div>
+                                        <div>
+                                            <label for="">电邮</label>
+                                            <input type="email" name="email" required>
+                                            <i class="error"></i>
+                                            <small>Email已存在</small>
+                                        </div>
+                                        <div>
+                                            <label for="">手机</label>
+                                            <input type="tel" name="phone" required>
+                                            <i class="error"></i>
+                                        </div>
+                                        <input type="hidden" name="email_lang" value="chinese">
+                                        <input type="hidden" name="refer" value="abc">
+                                        <input type="hidden" name="affilate_url" value="abc">
+                                        <button type="button">立即参与</button>
+                                    </form>
+                                    <div>
+                                        <small>提示：电邮和手机用来接收注册账户信息，请填写有效联系方式</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="info">
+                            <a class="white" href="#gift" id="gotogift">
+                                查看活动详情<br><img src="img/double_down.png" alt="down">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="description">
+        <div class="container">
+            <div class="row">
+                <div class="col-sx-12 header">
+                    <h2>ACY稀万独家冠名的</h2>
+                    <h4>Jacky Cheung“A CLASSIC TOUR 学友 经典”2018世界巡演悉尼站</h4>
+                    <h6>
+                        这将会是张学友出道来最大制作的一次世界巡演！<br> 为了回馈广大客户的支持，稀万将携手经典，为您带来一场视觉和听觉上的“饕餮盛宴”。
+                    </h6>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="img/main-post.jpg" alt="post" class="img-responsive post">
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="description-word">
+
+                        <h2>歌神降临 必将再创辉煌</h2>
+                        <div class="number">
+                            <p>个人巡演全球累计<span class="highlight">610余</span>场，</p>
+                            <p>唱片累计销量突破<span class="highlight">6000万</span>张，</p>
+                            <p>音乐奖项累计超过<span class="highlight">260余</span>个，</p>
+                            <p><span class="highlight">3次</span>打破亚洲歌手演唱会观演人数吉尼斯记录。</p>
+                        </div>
+                        <div class="word">
+                            <div>学友说，“这次演唱会取名‘经典'，是想做到自己的经典。年轻的时候，有很多原因没有达到自己认为的最完美，这次是要向自己的理想和梦想出发。”希望把过去一些留给自己印象深刻的经典表演，无论是歌曲、舞蹈或是一些场面集合整理后，在这次演唱会的舞台上重新呈现一次。早在1995年，学友哥就已经踏上澳洲这片土地开唱。2018年，歌神再次降临澳洲。张学友将会唱响自己的经典，而歌声也会成为我们的经典。</div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="carousel-box">
+        <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="img/carousel1.jpg" alt="carousel11" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>挑战最经典的“四面台”演唱会</h3>
+                            <p>本次巡演将挑战张学友自己内心中最经典的四面舞台。这是张学友继1995年第一场在香港红磡的四面台演唱会之后，首度再次开启四面台巡回演唱会，这是学友哥心目中的经典画面之一。</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/carousel2.jpg" alt="carousel2" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>开办澳洲可容纳观众最多的演唱会</h3>
+                            <p>ACY稀万----张学友“A CLASSIC TOUR”2018世界巡演悉尼站，将打破尘封已久的澳洲演唱会历史！至今为止，张学友是唯一一位在澳洲开四面台演唱会的华人歌手，这也将是澳洲演唱会史上室内场馆的最大制作，单场可容纳观众数最多的演唱会！</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/carousel3.jpg" alt="carousel3" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>打造澳洲室内场馆的最强制作的演唱会</h3>
+                            <p>为了呈现学友哥心中的精彩画面，这次巡演的舞台设计会以高制作规格，采用全机械控制。四面舞台是由多层次的LED屏幕构成，仔细看可以分为多个独立的LED立方体。舞台灯光也会伴随着LED的不同组合而变换。在理性和感性的不停交错中，走进时光隧道，与过往的自己相拥相逢，重回往事岁月！</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/carousel4.jpg" alt="carousel4" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>携大型管弦乐团、专业舞者及特技演员的演唱会</h3>
+                            <p>本次巡演学友哥还将携手32人的大型乐团暨管弦乐团、30位专业舞者与特技演员登陆澳洲！吉他、架子鼓、管弦乐的客串仿佛让人在聆听一场高品质的演奏会。此外，学友哥在本次巡演的服装造型上也是颇费心思，与合作了二十年的美术总监一起为演唱会搭配出10套不同风格的服装，配合演唱会上不同的篇章出现。</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="news">
+                <div>
+                    <h4>张学友最新消息</h4>
+                    <div class="list">
+                        <div class="row">
+                            <div class="col-sm-3 col-sm-12">
+                                <img src="img/news1.jpg" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-sm-9 col-sm-12">
+                                <h6>「A CLASSIC TOUR 学友·经典」永恒的经典演唱会</h6>
+                                <p>集经典于一身、创经典的诞生，“金氏世界纪录神级人物”张学友，终结广大歌迷们5年的等待，张学友带着全新的「A CLASSIC TOUR 学友·经典世界巡回演唱会」，串联起全球歌迷的过去、现在与未来，共同写下全球华人音乐盛事，永恒的经典演唱会。</p>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3 col-sm-12">
+                                <img src="img/news2.jpg" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-sm-9 col-sm-12">
+                                <h6>「A CLASSIC TOUR 学友·经典」北京首站完美演出</h6>
+                                <p>"歌神"张学友完成北京首站连3场的演出，他在舞台上感性的表示，「今天不是我的第三场演出，其实是第四场，第一场没有观众的彩排，我也是这样用力的表演」歌神更表示其实他已经这样练习演唱长达100多天，等同演出过百场了。学友也特别感谢所有的工作人员们，实现了他疯狂的梦想，把这个复杂的制作搭建出来，他表示，「谢谢大家帮我完成我的梦想，我的野心太大。」</p>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3 col-sm-12">
+                                <img src="img/news3.jpg" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-sm-9 col-sm-12">
+                                <h6>「A CLASSIC TOUR 学友·经典世界巡回演唱会」北京首站登场</h6>
+                                <p>全球华人引颈期盼，“歌神”张学友的全新「A CLASSIC TOUR 学友·经典世界巡回演唱会」终于启航！睽违5年的全新巡演，首站于10月21日、22日、23日连续3晚在北京乐视体育生态中心盛大展开，挑战他心目中最经典的四面舞台，以全LED铺天盖地，打造360度超立体四面台，以32人的大型乐团暨管弦乐的编制，结合30位专业舞者与特技演员，演绎”歌神”张学友心中的40首经典，每一首歌随着情境的起伏，以世界级制作规格，呈现学友心目中的精彩画面，视觉与听觉上的完美结合，搭配10套服装造型，让上万名全球首场幸运观众为之惊呼，堪称「经典中的经典！</p>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3 col-sm-12">
+                                <img src="img/news4.jpg" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-sm-9 col-sm-12">
+                                <h6>双喜临门「学友·经典台北站」6场全数秒杀售罄，并恭喜学友入围金马奖影帝</h6>
+                                <p>张学友「A CLASSIC TOUR 学友·经典世界巡回演唱会」将于明年2月11、12、13、17、18、19日，在台北小巨蛋开唱，今天(10/1)中午12点于拓元售票系统一次开卖6场，在3分钟内瞬间流量涌入超过20万人，爆冲人次破系统纪录，造成系统当机。开卖20分钟完售6场6万6千张票，系统紧急关闭处理，修复并确认所有结帐动作后，下午2:30重新开启售票页面，剩余票券于10分钟内全部完售！得知门票销售一空，有20万人同时上线抢票，创下流量的纪录，张学友表示，「帮我谢谢大家，我会尽力把最好的带上舞台，希望不会辜负大家的支持与期望。
+                                    」今天同时宣布张学友以「暗色天堂」入围第53届金马奖最佳男主角，学友亦表示：「非常荣幸可以入围金马奖，自己的努力被看到很开心，谢谢金马奖评委。」</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="conclusion">
+                    <p>“张学友”对你我而言，早已是经典。
+                        <br>让我们一起期待经典中的经典，
+                        <br> 期待与张学友共同写下全球华人音乐盛事，
+                        <br> 永恒的经典演唱会。
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gift" id="gift">
+        <div class="container">
+            <div class="row">
+                <div class="col-sx-12 header">
+                    <h2>张学友悉尼演唱会<span class="red">4</span>重礼遇等你拿</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="img/record.png" alt="record" class="rotate img-responsive hidden-sm hidden-xs">
+                </div>
+                <ul class="col-md-7 level1">
+                    <li class="logo">
+                        <div class="number">1</div>
+                    </li>
+                    <li class="word">
+                        <div class="level">
+                            <div>歌迷专属</div>
+                            <div class="hover-rotate-y">
+                                <span class="midbox">
+                                <span class="midcontent">极</span>
+                            </div>
+                            <div class="hover-rotate-y">
+                                <span class="midbox">
+                                <span class="midcontent">致</span>
+                            </div>
+                            <div class="hover-rotate-y">
+                                <span class="midbox">
+                                <span class="midcontent">礼</span>
+                            </div>
+                            <div class="hover-rotate-y">
+                                <span class="midbox">
+                                <span class="midcontent">遇</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            2017年10月1日至2018年2月28日，</br>
+                            凡入金100美金ACY稀万的客户,</br>
+                            即可参与抽奖</br>
+                            歌神<span class="red">张学友亲笔专属寄语</span>及神秘礼品一份，</br>
+                            获奖者1名，将会在3月1日公布。
+                        </div>
+                        <div class="clearfix h220">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="black-top">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+        <div class="bg-black">
+            <div class="container">
+                <div class="row">
+                    <ul class="col-xs-12 level2">
+                        <li class="logo">
+                            <div class="number">2</div>
+                            <div>
+                                <div class="midbox hover-rotate-y">
+                                    <div class="midcontent">至尊<br>礼遇</div>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="word">
+                            <div class="level">
+                                <div class="hover-rotate-x">VVIP门票+往返机票酒店</div>
+                            </div>
+                            <div class="content">
+                                2017年10月1日至2018年1月31日，</br>
+                                凡满足入金20万美元以上,且交易外汇和贵金属2500手以上的客户,</br>
+                                即可参与抽奖</br>
+                                2张 Jacky Cheung“A CLASSIC TOUR 学友 经典”2018世界巡演悉尼站演唱会的VVIP门票（第一排，有望和张学友握手），</br>
+                                以及报销往返澳洲悉尼的机票和酒店，<span class="red">总价值10000 AUD，</span></br>
+                                获奖者1名，将会在3月1日公布。
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="black-bottom">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+        <div class="clearfix h220"></div>
+        <div class="container">
+            <div class="row">
+                <ul class="col-xs-12 level3">
+                    <li class="logo">
+                        <div class="number">3</div>
+                        <div>
+                            <div class="midbox hover-rotate-y">
+                                <div class="midcontent">皇冠<br>礼遇</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="word">
+                        <div class="level">
+                            <div class="hover-rotate-x">VIP门票+往返机票</div>
+                        </div>
+                        <div class="content">
+                            2017年10月1日至2018年1月31日，</br>
+                            凡满足入金10万美元以上,且操作外汇和贵金属1500手以上的客户,</br>
+                            即可参与抽奖</br>
+                            2张 Jacky Cheung“A CLASSIC TOUR 学友 经典”2018世界巡演悉尼站演唱会的VIP门票，</br>
+                            以及报销往返澳洲悉尼的机票，<span class="red">总价值 5000 AUD，</span></br>
+                            每月获奖者1名，总共4个名额，将会在每月月初公布。
+                        </div>
+                    </li>
+                </ul>
+                <ul class="col-xs-12 level4">
+                    <li class="logo">
+                        <div class="number">4</div>
+                    </li>
+                    <li class="word">
+                        <div class="level">
+                            <div class="midbox hover-rotate-x">
+                                <div class="midcontent">钻石礼遇</div>
+                            </div>
+                            <div>VIP门票</div>
+                        </div>
+                        <div class="content">
+                            2017年10月1日至2018年1月31日，</br>
+                            凡满足入金2万美元以上，即可参与抽奖</br>
+                            2张 Jacky Cheung“A CLASSIC TOUR 学友 经典”2018世界巡演悉尼站演唱会的VIP门票，<span class="red">总价值 2000 AUD，</span></br>
+                            每月获奖者1名，总共4个名额，将会在每月月初公布。
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="form-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 hidden-md hidden-sm hidden-xs"></div>
+                <div class="col-lg-7 col-md-12">
+                    <h2 class="white">加入ACY稀万 见证歌神经典</h2>
+                    <div class="form-body">
+                        <img class="tie" src="img/tie.png" alt="">
+                        <div class="row">
+                            <div class="col-sm-10 col-xs-12">
+                                <h4>注册真实账户，加入礼遇抽奖</h4>
+                                <form id="acyform-bottom" method="POST" action="http://apiform.acytest.com/v1/promo-live-account" novalidate="novalidate">
+                                    <div>
+                                        <label for="">名</label>
+                                        <input type="text" name="first_name" required>
+                                        <i class="error"></i>
+                                    </div>
+                                    <div>
+                                        <label for="">姓</label>
+                                        <input type="text" name="last_name" required>
+                                        <i class="error"></i>
+                                    </div>
+                                    <div>
+                                        <label for="">电邮</label>
+                                        <input type="email" name="email" required>
+                                        <i class="error"></i>
+                                        <small>Email已存在</small>
+                                    </div>
+                                    <div>
+                                        <label for="">手机</label>
+                                        <input type="tel" name="phone" required>
+                                        <i class="error"></i>
+                                    </div>
+                                    <input type="hidden" name="email_lang" value="chinese">
+                                    <input type="hidden" name="refer" value="abc">
+                                    <input type="hidden" name="affilate_url" value="abc">
+                                    <button type="button">立即参与</button>
+                                </form>
+                                <div>
+                                    <small>提示：电邮和手机用来接收注册账户信息，请填写有效联系方式</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="info">
+                        <button class="button-red" href="" data-toggle="collapse" data-target="#detail">活动条款细则</button>
+                    </div>
+                </div>
+            </div>
+            <div id="detail" class="collapse">
+                <h2>来听一场学友的演唱会 活动条款细则</h2>
+                <div class="time">活动期间为2017年10月1日至2018年3月11日。</div>
+                <div class="row levels">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="level-detail">
+                            <div class="midbox">
+                                <div class="midcontent">
+                                    <img src="img/signature.png" alt="signature">
+                                </div>
+                            </div>
+                            <div>
+                                凡在2017年10月1日至2018年2月28日内入金100美金的客户，即有资格参与ACY稀万送出的“歌迷专属极致礼遇”--歌神张学友亲笔专属寄语及神秘礼品一份。获奖者1名，将会在2018年3月1日抽取并公布获奖者名单。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="level-detail">
+                            <div class="midbox">
+                                <div class="midcontent">
+                                    <img src="img/best.png" alt="best">
+                                </div>
+                            </div>
+                            <div>
+                                凡在2017年10月1日至2018年1月31日内入金20万美元以上，且在此期间交易外汇和贵金属累积2500手以上的客户，即可参与“至尊礼遇”抽奖—2张Jacky Cheung“A CLASSIC TOUR 学友 经典”2018世界巡演悉尼站演唱会的VVIP门票（第一排，有望和张学友握手），以及报销往返澳洲悉尼的机票和酒店，总价值10000
+                                AUD。获奖者1名，将于2018年2月1日抽取并公布获奖者名单。
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="level-detail">
+                            <div class="midbox">
+                                <div class="midcontent">
+                                    <img src="img/crown.png" alt="crown">
+                                </div>
+                            </div>
+                            <div>
+                                凡在2017年10月1日至2018年1月31日内入金10万美元以上，且在此期间交易外汇和贵金属累积1500手以上的客户，即可参与“皇冠礼遇”抽奖—2张Jacky Cheung“A CLASSIC TOUR 学友 经典”2018世界巡演悉尼站演唱会的VIP门票，以及报销往返澳洲悉尼的机票，总价值5000
+                                AUD。总共4个名额，将于每月月初（即2017年11月1日、2017年12月1日、2018年1月2日和2018年2月1日）分别抽取和公布1位获奖者。
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="level-detail">
+                            <div class="midbox">
+                                <div class="midcontent">
+                                    <img src="img/diamond.svg" alt="diamond">
+                                </div>
+                            </div>
+                            <div>
+                                凡在2017年10月1日至2018年1月31日内入金2万美元以上的客户，即可参与“钻石礼遇”抽奖—2张Jacky Cheung“A CLASSIC TOUR 学友 经典”2018世界巡演悉尼站演唱会的VIP门票，总价值2000 AUD。总共4个名额，将于每月月初（即2017年11月1日、2017年12月1日、2018年1月2日和2018年2月1日）分别抽取和公布1位获奖者。
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row annotation">
+                    <div class="col-xs-12 part1">
+                        <ul>
+                            <li><span class="glyphicon glyphicon-star"></span></li>
+                            <li>ACY稀万会在获奖名单公布的当天发送邮件给获奖者，获奖者需在3个工作日内回复确认邮件，否则视为放弃。</li>
+
+                        </ul>
+                        <ul>
+                            <li><span class="glyphicon glyphicon-star"></span></li>
+                            <li>如果获奖者因为个人原因无法前来悉尼观看演唱会，ACY稀万会在2018年3月12日按即时汇率将礼品等值的金额转入您的真实交易账户中。</li>
+                        </ul>
+                        <ul>
+                            <li><span class="glyphicon glyphicon-star"></span></li>
+                            <li>此活动新老客户均可参加。</li>
+                        </ul>
+                        <ul>
+                            <li><span class="glyphicon glyphicon-star"></span></li>
+                            <li>在活动开始前ACY稀万并未拥有以上奖品，活动截止时，如ACY稀万无法获得该奖品，会以同等价值结算至中奖者的交易账户中。</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 part2">
+                        <P>以上活动可以和其他活动同时进行。</P>
+                        <P>CFD、原油不参与活动交易手数计算。 </P>
+                        <P>对于客户、代理、或任何有关人员，如 ACY稀万 认为（无需解释）滥用活动条款，有权关闭、撤销客户和代理权益。 </P>
+                        <P>对于所有参与活动者， ACY 稀万 保持随时更改活动政策的条款和权利。任何条款变动 ACY 稀万 将通过电子邮件或官方网站发出告示通知所有客户。 如果客户未能定期查看邮件或者官方网站而造成有所损失，ACY
+                            稀万 将不承担任何责任。 ACY 稀万 保留活动最终解释权。</P>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="acy-description">
+        <div class="container">
+            <div class="col-xs-12">
+                <span class="highlight">ACY稀万</span>总部设在澳洲悉尼，是一家支持各种交易方式，为日内交易者、高频交易者以及新入市交易者提供真正ECN模式的外汇交易商。作为行业的领导者，我们业务遍布全球，服务享誉海内外。投资者可受惠于由稀万国际提供的低点差外汇流通性，并以尖端科技让我们能在世界最庞大的外汇市场中得到最佳报价。
+            </div>
+
+        </div>
+    </section>
+    <div class="clearfix bottom-black"></div>
+</body>
+<script>
+    $('#close-campaign').click(function(){
+        $('#campaign').hide();
+    });
+
+    $('#gotogift').click(function () {
+        $('html, body').animate({ scrollTop: $('#gift').offset().top }, 1200);
+    });
+
+    function validateEmail(email) {
+        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+    }
+
+    function validatePhone(phone) {
+        var vali = /^\d{7,13}$/;
+        return vali.test(phone);
+    }
+
+    $('form input[name="first_name"]').change(function () {
+        if (!$(this).val()) {
+            $(this).siblings('i').show();
+        } else {
+            $(this).siblings('i').hide();
+        }
+    });
+
+    $('form input[name="last_name"]').change(function () {
+        if (!$(this).val()) {
+            $(this).siblings('i').show();
+        } else {
+            $(this).siblings('i').hide();
+        }
+    });
+
+    $('form input[name="email"]').change(function () {
+        if (!validateEmail($(this).val())) {
+            $(this).siblings('i').show();
+        } else {
+            $(this).siblings('i').hide();
+        }
+    });
+
+    $('form input[name="phone"]').change(function () {
+        if (!validatePhone($(this).val())) {
+            $(this).siblings('i').show();
+        } else {
+            $(this).siblings('i').hide();
+        }
+    });
+
+    $('form input[name="email"]').click(function () {
+        $(this).siblings('small').hide();
+    });
+
+    $('#acyform-top button').click(function () {
+        if ($('#acyform-top input[name="first_name"]').val() && $('#acyform-top input[name="last_name"]').val() && validatePhone($('#acyform-top input[name="phone"]').val()) && validateEmail($('#acyform-top input[name="email"]').val())) {
+            $(this).attr('disabled',true);
+            $.ajax({
+                type: 'POST',
+                url: $('#acyform-top').attr('action'),
+                crossDomain: true,
+                data: $('#acyform-top').serialize(),
+                dataType: 'json',
+                success: function (data, textStatus, jqXHR) {
+                    if (data.message == "SUCCESS") {
+                        $('#acyform-top')[0].reset();
+                        window.location.href = "http://" + window.location.host + "/open-live-account?pageNo=stepTwo&userId=" + data.data.userID;
+                    } else {
+                        console.log(data.status_code,typeof(data.status_code));
+                        $('#acyform-top button').attr('disabled',false);
+                        if (data.status_code==20501){
+                            $('#acyform-top input[name="email"]').siblings('small').show();
+                        } else {
+                            window.alert('error : please contact  us');
+                        }
+                    }
+                    clicked = false;
+                },
+                error: function (xhr, type) {
+                    $('#acyform-top button').attr('disabled',false);
+                    clicked = false;
+                    var message = xhr.status == 429 ? "Too many request" : "error : please contact  us";
+                    window.alert(message);
+                }
+            });
+        }
+    });
+
+    $('#acyform-bottom button').click(function () {
+        if ($('#acyform-bottom input[name="first_name"]').val() && $('#acyform-bottom input[name="last_name"]').val() && validatePhone($('#acyform-bottom input[name="phone"]').val()) && validateEmail($('#acyform-bottom input[name="email"]').val())) {
+            $(this).attr('disabled',true);
+            $.ajax({
+                type: 'POST',
+                url: $('#acyform-bottom').attr('action'),
+                crossDomain: true,
+                data: $('#acyform-bottom').serialize(),
+                dataType: 'json',
+                success: function (data, textStatus, jqXHR) {
+                    if (data.message == "SUCCESS") {
+                        $('#acyform-bottom')[0].reset();
+                        window.location.href = "http://" + window.location.host + "/open-live-account?pageNo=stepTwo&userId=" + data.data.userID;
+                    } else {
+                        $('#acyform-bottom button').attr('disabled',false);                        
+                        if (data.status_code==20501){
+                            $('#acyform-bottom input[name="email"]').siblings('small').show();
+                        } else {
+                            window.alert('error : please contact  us');
+                        }
+                    }
+                    clicked = false;
+                },
+                error: function (xhr, type) {
+                    $('#acyform-bottom button').attr('disabled',false);
+                    clicked = false;
+                    var message = xhr.status == 429 ? "Too many request" : "error : please contact  us";
+                    window.alert(message);
+                }
+            });
+        }
+
+    });
+
+</script>
+
+</html>

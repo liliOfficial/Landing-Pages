@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://api.acytest.com:6001/socket.io/socket.io.js"></script>
+    <script src="./app.js"></script>
+</head>
+
+<body>
+
+    <section class="section1">
+        <video autoplay loop class="hidden-xs">
+            <source src="http://1253488992.vod2.myqcloud.com/2e510092vodgzp1253488992/d8e5ffc14564972819198709694/CalEEoac4b0A.mp4" type="video/mp4">
+        </video>
+        <div class="header">
+            <img src="./image/2018.png" alt="">
+        </div>
+        <h2>和我们一起 开启交易新元年</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 envelop">
+                    <div class="envelop-top">
+                        <img src="./image/envelop_top.png" alt="" class="img-responsive card">
+                    </div>
+                    <div class="evelop-bottom">
+                        <img src="./image/card1.jpg" alt="" class="img-responsive card">
+                        <img src="./image/envelop_bottom.png" alt="" class="img-responsive front">
+                        <div class="name">BMW i8</div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="envelop-top">
+                        <img src="./image/envelop_top.png" alt="" class="img-responsive">
+                    </div>
+                    <div class="evelop-bottom">
+                        <img src="./image/card2.jpg" alt="" class="img-responsive card">
+                        <img src="./image/envelop_bottom.png" alt="" class="img-responsive front">
+                        <div class="name">Tesla Model X</div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="envelop-top">
+                        <img src="./image/envelop_top.png" alt="" class="img-responsive card">
+                    </div>
+                    <div class="evelop-bottom">
+                        <img src="./image/card3.jpg" alt="" class="img-responsive card">
+                        <img src="./image/envelop_bottom.png" alt="" class="img-responsive front">
+                        <div class="name">Land Rover Evoque</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section2">
+        <div class="fu">
+            <img src="./image/fu.png" alt="" class="img-responsive">
+        </div>
+        <div class="">
+            <div class="fu-mid rotate-y">100%</div>
+            <div class="fu-bottom">
+                有
+                <br> 奖
+                <br> 活
+                <br> 动
+            </div>
+        </div>
+        <div class="description">
+            <div>
+                2018年，注定是狂欢的一年
+            </div>
+            <ul>
+                <li>三台超级座驾</li>
+                <li>一场说走就走的旅行</li>
+                <li>高端电视影音 高配版iPhone X</li>
+                <li>更有千元现金红包助阵</li>
+            </ul>
+            <div>
+                这一切
+            </div>
+            <div>
+                只为交易更畅快
+            </div>
+        </div>
+    </section>
+    <section class="reward speed">
+        <div class="container">
+            <h2>速度与激情</h2>
+            <h4>这是一种优质生活方式的表达、一种格调与品位的象征、一种风格的追求，更是一种生活态度。拥有它才能驾驭它！</h4>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <video loop class="videoshow hidden-xs">
+                    <source src="http://1253488992.vod2.myqcloud.com/2e510092vodgzp1253488992/c2128b024564972819238688892/QE5a9AN76VgA.mp4" type="video/mp4">
+                </video>
+                <img src="./image/card1.jpg" alt="" class="img-responsive hidden-sm hidden-md hidden-lg">
+            </div>
+            <div class="col-md-6">
+                <div class="word">
+                    <h3>宝马丨颜值即正义</h3>
+                    <p>
+                        从电影《碟中谍》里看到后就不能自拔，它的颜值令人深深折服。它是沉默的怪兽，心无旁骛之选，宝马提车记，只为了少年时候的梦！
+                    </p>
+                    <div>
+                        <span class="item">BMW i8</span>
+                        <span class="price">200万</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 hidden-sm hidden-xs">
+                <div class="word">
+                    <h3>特斯拉丨 动力生猛</h3>
+                    <p>
+                        心强大，才能力从容。运动型多用途空间及功能无可比拟的完美结合，堪称史上最安全、最快速、最实用的SUV多用途车。
+                    </p>
+                    <div>
+                        <span class="item">Tesla Model X</span>
+                        <span class="price">100万</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <video loop class="videoshow hidden-xs">
+                    <source src="http://1253488992.vod2.myqcloud.com/2e510092vodgzp1253488992/44054d4d4564972819240561951/fpIzApKAKBUA.mp4" type="video/mp4">
+                </video>
+                <img src="./image/card2.jpg" alt="" class="img-responsive hidden-sm hidden-md hidden-lg">
+            </div>
+            <div class="col-md-6 hidden-md hidden-lg">
+                <div class="word">
+                    <h3>特斯拉丨 动力生猛</h3>
+                    <p>
+                        心强大，才能力从容。运动型多用途空间及功能无可比拟的完美结合，堪称史上最安全、最快速、最实用的SUV多用途车。
+                    </p>
+                    <div>
+                        <span class="item">Tesla Model X</span>
+                        <span class="price">100万</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <video loop class="videoshow hidden-xs">
+                    <source src="http://1253488992.vod2.myqcloud.com/2e510092vodgzp1253488992/c3fa8b3a4564972819238727656/sNjHVme8TvUA.mp4" type="video/mp4">
+                </video>
+                <img src="./image/card3.jpg" alt="" class="img-responsive hidden-sm hidden-md hidden-lg">
+            </div>
+            <div class="col-md-6">
+                <div class="word">
+                    <h3>路虎丨彰显个性</h3>
+                    <p>
+                        以极简设计成就非凡体验，令人惊艳的外观，极具艺术感的内饰，继承路虎强大的全地形性能脱颖而出。万众瞩目，心之所向。
+                    </p>
+                    <div>
+                        <span class="item">Land Rover Evoque</span>
+                        <span class="price">50万</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="reward holiday">
+        <div class="container">
+            <h2>悠长假期</h2>
+            <h4>生活，是一种享受。享受每天的平凡，享受闹市的那份宁静。享受孤独，享受阳光下的美好。 其实最该享受的是与家人在一起的时光，体会亲情的温暖和爱情的炙热。</h4>
+            <video class="videoshow hidden-xs" loop>
+                <source src="http://1253488992.vod2.myqcloud.com/2e510092vodgzp1253488992/4693f4ba4564972819240697477/BocIG4ztOEcA.mp4" type="video/mp4">
+            </video>
+            <div class="row hidden-sm hidden-md hidden-lg">
+                <img src="./image/dxd.jpg" alt="" class="img-responsive">
+            </div>
+
+        </div>
+        <div></div>
+        <div class="description">
+            <h3>大溪地丨终极梦想之旅</h3>
+            <p>大溪地，被誉为人间最后一块净土，美得令人窒息。这里民风淳朴，水上娱乐丰富，陪全家一起参加冒险活动，邂逅梦幻，和魔鬼鱼一起浮潜。 </p>
+            <div class="highlight">全家5日游（酒店+往返机票） 价值：10万</div>
+        </div>
+        <!-- <div class="wave wave-left">
+            <div class="layer">
+                <span class="no1">
+                    <img src="./image/wave.png" alt="">
+                </span>
+                <span class="no2">
+                    <img src="./image/wave.png" alt="">
+                </span>
+                <span class="no3">
+                    <img src="./image/wave.png" alt="">
+                </span>
+            </div>
+            <div class="layer layer2">
+                <span class="no1">
+                    <img src="./image/wave.png" alt="">
+                </span>
+                <span class="no2">
+                    <img src="./image/wave.png" alt="">
+                </span>
+                <span class="no3">
+                    <img src="./image/wave.png" alt="">
+                </span>
+            </div>
+        </div>
+        <div class="wave wave-right">
+            <div class="layer">
+                <span class="no1">
+                    <img src="./image/wave.png" alt="">
+                </span>
+                <span class="no2">
+                    <img src="./image/wave.png" alt="">
+                </span>
+                <span class="no3">
+                    <img src="./image/wave.png" alt="">
+                </span>
+            </div>
+            <div class="layer layer2">
+                <span class="no1">
+                    <img src="./image/wave.png" alt="">
+                </span>
+                <span class="no2">
+                    <img src="./image/wave.png" alt="">
+                </span>
+                <span class="no3">
+                    <img src="./image/wave.png" alt="">
+                </span>
+            </div>
+        </div> -->
+    </section>
+    <section class="reward life">
+        <div class="container">
+            <h2>生活大爆炸</h2>
+            <h4>科技的进步总是需要一些幻想，那些看似不合实际的想法，往往就是通向未来的钥匙。“梦想还是要有的，万一实现了呢？”</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-6 tv">
+                <img src="./image/TV.gif" alt="" class="img-responsive">
+                <div class="word">
+                    <h3>Curve TV 丨穿越未来</h3>
+                    <p>
+                        自己的视界，自己造，让未来，提前上演。惊艳的65英寸巨幕影院，以纯粹动人的色彩征服你的视觉触感。
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-md-6 iphone">
+                <img src="./image/iphone.gif" alt="" class="img-responsive ">
+
+                <div class="word">
+                    <h3>iPhone X 丨十年之约</h3>
+                    <p>
+                        你好，未来，此刻想与您遇见。最新科技动力，弹指间把握最新科技动态，快人一步享受流畅体验。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reward money">
+        <div class="container">
+            <h2>富贵逼人</h2>
+            <h4>能用红包解决的事，请尽量不要用言语表达!</h4>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="game">
+                        <img src="./image/border.png" alt="" class="img-responsive">
+                        <div class="border">
+                            <img src="./image/border.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="col col1">
+                            <img src="./image/30.png" alt="" class="img-responsive">
+                            <img src="./image/100.png" alt="" class="img-responsive">
+                            <img src="./image/500.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="col col2">
+                            <img src="./image/50.png" alt="" class="img-responsive">
+                            <img src="./image/100.png" alt="" class="img-responsive">
+                            <img src="./image/500.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="col col3">
+                            <img src="./image/100.png" alt="" class="img-responsive">
+                            <img src="./image/100.png" alt="" class="img-responsive">
+                            <img src="./image/500.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="col col4">
+                            <img src="./image/500.png" alt="" class="img-responsive">
+                            <img src="./image/100.png" alt="" class="img-responsive">
+                            <img src="./image/500.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div>
+                        <button class="start-game">开始游戏</button>
+                        <button class="stop-game" style="display:none;">停</button>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="word">
+                        <h3>红包丨等待领取</h3>
+                        <p>现金红包相赠，为您的交易添砖加瓦，收获更多可能。</p>
+
+                        <img class="coins2" src="./image/coins2.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reward process">
+        <div class="container">
+            <h2>100%有奖活动</h2>
+            <h4>凡是每月第一次入金 2,000美金的客户均可进行抽奖！
+                <br/> 每人每月可抽奖一次，
+                <br/> 心动不如行动，马上开启大奖之旅！
+                <br/>
+            </h4>
+            <div class="terms">
+                <h4 data-toggle="collapse" data-target=".detail">活动细则</h4>
+                <div class="detail collapse">
+                    <h5>年度大赏活动细则</h5>
+                    <ul>
+                        <li>所有使用银联一次性入金2000美金（或同等金额）以上的交易者均可参加本活动，每月最多可参与一次。</li>
+                        <li>活动开始日期为2018年2月1日，截止日期为2018年12月31日。</li>
+                        <li>所有参与者均有100%的中奖机会，抽中奖品后会收到相应的邮件通知。</li>
+                        <li>抽奖次数会于每月最后1个自然日清空，不累计至下月。</li>
+                        <li>ACY稀万 保留活动最终解释权。</li>
+                    </ul>
+                    <h5>奖品领取细则</h5>
+                    <ul>
+                        <li>抽中“BMW-i8”、 “Tesla-Model X”、“Land Rover-Evoque”、 “Samsung 65寸 Curve TV”、 “iPhone X 256G”的交易者，需在3个工作日内回复邮件，确认中奖信息。ACY稀万
+                            会在收到您回复邮件后的3个工作日内与您联系，并核实兑换奖品， 如3个工作日内无法联系到中奖者，奖品作废。 在活动开始前ACY稀万 并未订购或拥有该奖品，活动截止时，如ACY稀万 无法获得该奖品，会以同等价值结算至中奖者的交易账户中。</li>
+                        <li>抽中“大溪地5日豪华游”的交易者需在确认奖项后的“6个月内”出行大溪地，在此之前的门票和酒店住宿均可凭发票报销，最高上限为100,000人民币。</li>
+                        <li>抽中“500美元赠金”，“100美元赠金”，“50美元赠金”及“30美元赠金”的交易者，ACY稀万 会于3个工作日内将对应金额结算至您的交易主账户中，赠金可出金。</li>
+                    </ul>
+                    <ul class="general">
+                        <li>凡是每月第一次入金 2000 美金（或同等金额）客户均可进行一次抽奖！</li>
+                        <li>ACY稀万 的最低出金金额为50美金。</li>
+                        <li>对于客户、代理、或任何有关人员，如ACY稀万 认为（无需解释）滥用活动条款，有权关闭、撤销客户和代理权益。</li>
+                    </ul>
+                    <div>
+                        对于所有参与活动者， ACY稀万 保持随时更改活动政策的条款和权利。任何条款变动 ACY稀万 将通过电子邮件或官方网站发出告示通知所有客户。 如果客户未能定期查看邮件或者官方网站而造成有所损失，ACY稀万 将不承担任何责任。 ACY稀万 保留活动最终解释权。
+                    </div>
+                    <div data-toggle="collapse" data-target=".detail" class="termclose">
+                        <img src="./image/close.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <h3>抽奖流程</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="box">
+                        <div class="number midbox">
+                            <div class="midcontent">1</div>
+                        </div>
+                        <div class="word  midbox">
+                            <div class="midcontent">
+                                开通 ACY 稀万真实交易账户。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="box">
+                        <div class="number midbox">
+                            <div class="midcontent">2</div>
+                        </div>
+                        <div class="word  midbox">
+                            <div class="midcontent">
+                                一次性入金 2000 美金。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="box">
+                        <div class="number midbox">
+                            <div class="midcontent">3</div>
+                        </div>
+                        <div class="word  midbox">
+                            <div class="midcontent">
+                                点击此页面上的“抽奖转盘”。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="box">
+                        <div class="number midbox">
+                            <div class="midcontent">4</div>
+                        </div>
+                        <div class="word  midbox">
+                            <div class="midcontent">
+                                扫描页面弹出的二维码，并下载移动端论金 APP。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="box">
+                        <div class="number midbox">
+                            <div class="midcontent">5</div>
+                        </div>
+                        <div class="word  midbox">
+                            <div class="midcontent">
+                                用 Cloud Hub 账户登录论金 APP。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="box">
+                        <div class="number midbox">
+                            <div class="midcontent">6</div>
+                        </div>
+                        <div class="word  midbox">
+                            <div class="midcontent">
+                                在论金 APP 中点击转盘进行抽奖。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="turntable">
+                <span class="content"></span>
+                <img src="./image/board.png" alt="" class="img-responsive">
+                <div class="rotate">
+                    <img src="./image/rotate.png" alt="">
+                </div>
+                </span>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 description">
+                    <img src="./image/dog.png" alt="" class="hidden-xs">
+                    <p>
+                        金融交易市场的世界里
+                        <br>在每一个掌声雷动的荣耀肉身之下
+                        <br>几乎都隐藏着一个个违规者的灵魂
+                        <br>投资不是博弈
+                        <br>应该有节律、有计划、有耐心的去进行
+                        <br>千万不能孤注一掷 2018为交易蓄力
+                        <br>让投资变得更简单
+                    </p>
+                </div>
+                <div class="col-md-6 form">
+                    <div class="header midbox">
+                        <span class="midcontent">
+                            注册抽奖
+                        </span>
+                    </div>
+                    <form id="form" method="POST" action="http://apiform.acytest.com/v1/promo-live-account">
+                        <div class="line">
+                            <label for="">名</label>
+                            <span class="input-line">
+                                <input type="text" name="first_name" required>
+                                <span></span>
+                            </span>
+
+                            <div class="message">
+                                <img src="./image/error.png" alt="">
+                            </div>
+                        </div>
+                        <div class="line">
+                            <label for="">姓</label>
+                            <span class="input-line">
+                                <input type="text" name="last_name" required>
+                                <span></span>
+                            </span>
+                            <div class="message">
+                                <img src="./image/error.png" alt="">
+                            </div>
+                        </div>
+                        <div class="line">
+                            <label for="">电邮</label>
+                            <span class="input-line">
+                                <input type="email" name="email" required>
+                                <span></span>
+                            </span>
+                            <div class="message">
+                                <img src="./image/error.png" alt="">
+                            </div>
+                        </div>
+                        <div class="line">
+                            <label for="">手机</label>
+                            <span class="input-line">
+                                <input type="tel" name="phone" required>
+                                <span></span>
+                            </span>
+                            <div class="message">
+                                <img src="./image/error.png" alt="">
+                            </div>
+                        </div>
+                        <div class="line">
+                            <label for="">国家</label>
+                            <select name="country" id="">
+                                <option value="China">中国</option>
+                                <option value="Australia">澳大利亚</option>
+                                <option value="Malaysia">马来西亚</option>
+                                <option value="Taiwan">台湾（中国）</option>
+                                <option value="Hong Kong">香港（中国）</option>
+                                <option value="Macau">澳门（中国）</option>
+                                <option value="Singapore">新加坡</option>
+                                <option value="Indonesia">印度尼西亚</option>
+                            </select>
+                        </div>
+                        <input type="hidden" name="email_lang" value="chinese">
+                        <input type="hidden" name="refer" value="abc">
+                        <input type="hidden" name="affilate_url" value="abc">
+                        <input type="hidden" name="Accept_Language" value="zh" />
+                        <input type="hidden" name="request_host" value="https://cn.acy.com">
+
+                        <small>提示：电邮和手机用来接受注册账户信息，请填写有效联系方式</small>
+                        <div class="clearfix"></div>
+                        <button type="button" id="submit">
+                            <span class="midcontent">立即
+                                <br/>参与</span>
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="about-us">
+                <h4>关于我们</h4>
+                <p>ACY稀万总部设在澳洲悉尼，是一家支持各种交易方式，为日内交易者、高频交易者以及新入市交易者提供真正ECN模式的外汇交易商。作为行业的领导者，我们业务遍布全球，服务享誉海内外。投资者可受惠于由稀万国际提供的低点差外汇流通性，并以尖端科技让我们能在世界最庞大的外汇市场中得到最佳报价。</p>
+            </div>
+        </div>
+
+    </section>
+    <div class="login-button midbox">
+        <span class="midcontent">登录</span>
+    </div>
+    <div class="logged" style="display:none">
+        您好，
+        <span class="name"></span>！您还有
+        <span class="number"></span> 次抽奖机会。
+        <span class="logout">（退出）</span>
+    </div>
+    <div class="popup midbox popup-log" style="display:none">
+        <div class="midcontent">
+            <h3 class="gameword" style="display:none">快来入金抽奖吧！</h3>
+            <div class="login">
+                <h2>登录抽奖</h2>
+                <small>100%中奖，每人每月最多可抽取一次</small>
+
+                <div class="pb-10">
+                    <label for="">邮箱</label>
+                    <input type="text" placeholder="Cloud Hub 注册邮箱" id="logid">
+                </div>
+                <div class="pb-10">
+                    <label for="">密码</label>
+                    <input type="password" id="logpassword">
+                </div>
+                <small class="logerror" style="display:none">用户名或密码错误</small>
+
+                <div class="buttons">
+                    <button type="button" class="log">登录抽奖</button>
+                    <button class="account" type="button">注册</button>
+                    <button class="cancel" type="button">关闭</button>
+                </div>
+            </div>
+            <div class="gamebutton" style="display:none">先测测手气</div>
+            <div class="inprocess" style="display:none">
+                <a class="midbox">
+                    <span class="midcontent">立即
+                        <br/>抽奖</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup midbox popup-deposit" style="display:none">
+        <div class="midcontent">
+            <div class="deposit">
+                <h2>抱歉，您还没有入金。</h2>
+                <div>银联一次性入金2,000美元（或同等金额）以上可参与一次抽奖，100%中奖。</div>
+                <a type="button" class="button todeposit" href="https://secure.cloudhubpanel.com/#/fund-manager/deposite-funds" target="_blank">立即入金</a>
+                <button type="button" class="button cancel">关闭</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup midbox popup-code" style="display:none">
+        <div class="midcontent">
+            <div class="code">
+                <img src="./image/code.png" alt="" class="img-responsive">
+                <h4>请扫描二维码，下载最新版论金APP</h4>
+            </div>
+
+        </div>
+    </div>
+    <div class="popup midbox popup-win" style="display:none">
+        <div class="midcontent">
+            <div class="win">
+                <img src="./image/win.png" alt="" width="300">
+                <div class="word">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var wsHost = 'http://api.acytest.com:6001';
+    var HOST = 'http://api.acytest.com/v1';
+</script>
+<script src="main.js"></script>
+
+</html>
